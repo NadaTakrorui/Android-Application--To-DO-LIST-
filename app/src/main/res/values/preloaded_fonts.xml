@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/adamina</item>
+        <item>@font/aladin</item>
+        <item>@font/alef_bold</item>
+        <item>@font/alex_brush</item>
+        <item>@font/almendra_display</item>
+        <item>@font/amatica_sc</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/astloch_bold</item>
+        <item>@font/b612_bold_italic</item>
+        <item>@font/sriracha</item>
+        <item>@font/trocchi</item>
+        <item>@font/zcool_kuaile</item>
+        <item>@font/zilla</item>
+        <item>@font/zilla_slab_highlight</item>
+        <item>@font/zilla_slab_highlight_bold</item>
+    </array>
+</resources>
