@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_modify" android:title="Modify"/>
+    <item android:id="@+id/menu_markAsCompleted" android:title="Mark As Completed"/>
+    <item android:id="@+id/menu_Share" android:title="Share via email"/>
+    <item android:id="@+id/menu_delete" android:title="Delete"/>
+</menu>

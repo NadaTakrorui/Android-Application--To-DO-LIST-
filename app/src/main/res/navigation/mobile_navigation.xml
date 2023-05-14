@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_all"
+        android:name="edu.birzeit.project.ui.all.allFragment"
+        android:label="All"
+        tools:layout="@layout/fragment_all" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="edu.birzeit.project.ui.today.todayFragment"
+        android:label="Today"
+        tools:layout="@layout/fragment_today" />
+    <fragment
+        android:id="@+id/navigation_week"
+        android:name="edu.birzeit.project.ui.week.weekFragment"
+        android:label="Week"
+        tools:layout="@layout/fragment_week" />
+    <fragment
+        android:id="@+id/navigation_newtask"
+        android:name="edu.birzeit.project.ui.newtask.newtaskFragment"
+        android:label="NewTask"
+        tools:layout="@layout/fragment_newtask" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="edu.birzeit.project.ui.profile.profileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/navigation_logout"
+        android:name="edu.birzeit.project.HomeActivity"
+        android:label="Logout"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="edu.birzeit.project.ui.search.searchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+
+</navigation>
